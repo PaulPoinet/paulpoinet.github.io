@@ -315,7 +315,7 @@ SIDEBAR + RIGHT COLUMN
 
 .content-column-content ul li:before {
   font-family: 'FontAwesome';
-  content: '\f105';
+  content: '\f19d';
   margin: 0 0.85rem 0 -0.9375rem;
   color: #ef5285;
 }
