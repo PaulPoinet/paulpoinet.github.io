@@ -36,9 +36,20 @@
   <!--<link rel="stylesheet" href="css/custom.css">-->
   <!-- Favicon-->
   <link rel="shortcut icon" href="img/favicon.png">
-  <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("sidebar.html"); 
+    });
+    </script> 
+ 
+
 </head>
 <body>
   <div id="all">
@@ -47,7 +58,7 @@
 
 
         <!--   *** SIDEBAR ***-->
-        <div w3-include-html="sidebar.html"></div> 
+        <div id="includedContent"></div>
         <!--   *** SIDEBAR END ***  -->
 
 
