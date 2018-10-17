@@ -258,7 +258,7 @@ SIDEBAR + RIGHT COLUMN
 
 .sidebar-link:before {
   font-family: 'FontAwesome';
-  content: '\f105';
+  content: '\f19d';
   margin: 0 0.85rem 0 -0.9375rem;
   color: #999;
 }
@@ -849,7 +849,7 @@ ABOUT
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-family: 'FontAwesome';
-  content: '\f105';
+  content: '\f19d';
   text-align: center;
   font-size: 3.125rem;
   color: #555;
