@@ -49,7 +49,38 @@
   });
   </script>
 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  
+  <script type="text/javascript">
+  $(function () {
+    
+    var filterList = {
+    
+      init: function () {
+      
+        // MixItUp plugin
+        // http://mixitup.io
+        $('#portfoliolist').mixItUp({
+          selectors: {
+            target: '.portfolio',
+            filter: '.filter' 
+          },
+          load: {
+            filter: '.app'  
+          }     
+        });               
+      
+      }
 
+    };
+    
+    // Run the show!
+    filterList.init();
+    
+    
+  }); 
+  </script>
 </head>
 <body>
   <div id="all">
