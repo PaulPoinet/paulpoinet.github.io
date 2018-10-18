@@ -257,7 +257,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .sidebar-link:before {
-  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f19d";
   margin: 0 0.85rem 0 -0.9375rem;
@@ -315,7 +315,7 @@ SIDEBAR + RIGHT COLUMN
 }
 
 .content-column-content ul li:before {
-  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f19d";
   margin: 0 0.85rem 0 -0.9375rem;
@@ -850,7 +850,7 @@ ABOUT
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  font-family: "Font Awesome\ 5 Free";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f19d";
   text-align: center;
