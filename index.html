@@ -21,9 +21,8 @@
   <!-- Bootstrap CSS-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   
-  <!-- Portfolios CSS-->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/layout.css">
+
+
   <!-- Font Awesome CSS-->
   <link rel="stylesheet" href="vendor/font-awesome/css/all.css">
   <!-- Google fonts - Roboto-->
@@ -45,38 +44,6 @@
   $(function(){
     $("#sidebar").load("sidebar.html"); 
   });
-  </script>
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-  <script type="text/javascript">
-  $(function () {
-    
-    var filterList = {
-    
-      init: function () {
-      
-        // MixItUp plugin
-        // http://mixitup.io
-        $('#portfoliolist').mixItUp({
-          selectors: {
-            target: '.portfolio',
-            filter: '.filter' 
-          },
-          load: {
-            filter: '.app'  
-          }     
-        });               
-      
-      }
-
-    };
-    
-    // Run the show!
-    filterList.init();
-    
-    
-  }); 
   </script>
 </head>
 <body>
