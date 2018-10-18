@@ -258,6 +258,7 @@ SIDEBAR + RIGHT COLUMN
 
 .sidebar-link:before {
   font-family: "Font Awesome\ 5 Solid";
+  font-weight: 900;
   content: "\f19d";
   margin: 0 0.85rem 0 -0.9375rem;
   color: #999;
@@ -315,6 +316,7 @@ SIDEBAR + RIGHT COLUMN
 
 .content-column-content ul li:before {
   font-family: "Font Awesome\ 5 Solid";
+  font-weight: 900;
   content: "\f19d";
   margin: 0 0.85rem 0 -0.9375rem;
   color: #ef5285;
@@ -849,6 +851,7 @@ ABOUT
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-family: "Font Awesome\ 5 Solid";
+  font-weight: 900;
   content: "\f19d";
   text-align: center;
   font-size: 3.125rem;
