@@ -1,4 +1,14 @@
 /* your styles go here */
+.container { 
+	position: relative; 
+	width: 960px; 
+	margin: 0 auto; 
+	-webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;	
+}
+
 #filters {
 	margin:1%;
 	padding:0;
@@ -22,3 +32,4 @@
 		color:#fff;
 		
 	}
+
