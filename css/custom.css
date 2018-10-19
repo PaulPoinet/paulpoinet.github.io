@@ -5,20 +5,20 @@
 	list-style:none;
 }
 
-#filters li {
-	float:left;
-}
-
-#filters li span {
-	display: block;
-	/*padding:5px 20px;*/		
-	text-decoration:none;
-	color:#666;
-	cursor: pointer;
-}
-
-#filters li span.active {
-	background: #ef5285;
-	color:#fff;
+	#filters li {
+		float:left;
+	}
 	
-}
+	#filters li span {
+		display: block;
+		padding:5px 20px;		
+		text-decoration:none;
+		color:#666;
+		cursor: pointer;
+	}
+	
+	#filters li span.active {
+		background: #ef5285;
+		color:#fff;
+		
+	}
