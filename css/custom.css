@@ -141,7 +141,7 @@ body {
 
 .control[data-filter]:after,
 .control[data-toggle]:after {
-    content: '';
+    content: 'HELLO';
     position: absolute;
     width: 10px;
     height: 10px;
