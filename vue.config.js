@@ -3,5 +3,4 @@ module.exports = {
     disableHostCheck: true
   },
   transpileDependencies: ['vuetify'],
-  publicPath: "<paulpoinet.github.io>"
 }
