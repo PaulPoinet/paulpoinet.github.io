@@ -43,7 +43,7 @@
                       @click=""
                     >
 
-                      <v-fade-transition>
+                      <v-fade-transition mode="out-in">
                         <v-footer
                           dark
                           v-if="hover"

@@ -12,7 +12,7 @@
               :class="[$vuetify.breakpoint.mdAndUp ? 'display-1' : 'headline']"
               class="mb-4"
             >
-              Hi there! My name is Paul.<br>
+              👋 Hi there! My name is Paul.<br>
               I am a trained architect with a strong focus on computational design and custom digital workflows for AEC.
             </h2>
             </v-card-text>
