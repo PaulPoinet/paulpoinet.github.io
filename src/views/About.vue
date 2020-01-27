@@ -1,11 +1,40 @@
 <template>
   <div>
-    <section class="white">
+    <section >
       <v-container>
-        <v-row>
+        <v-row >
           <v-col
-            cols="12"
-            md="6"
+         
+            md="4"
+            align-self="right"
+          >
+            <div align="center">
+                      <v-card   :max-width="350" :elevation="24">
+              <v-img src="/static/about.png" />
+            </v-card>
+          </div>
+            
+            <p align="center" class="mt-6">
+                   
+
+                   <v-btn color="primary" rounded :elevation="4" class="ma-2"  href="/static/PaulPoinet_CVPortfolio_lowres.pdf" target="_blank">
+                   <v-icon left>mdi-arrow-right</v-icon>
+                   <font >ARCH PORTFOLIO (2012-18)</font>
+                   </v-btn>
+                   <br>
+                   <v-btn color="primary" rounded :elevation="4" class="ma-2"  href="/static/CV.pdf" target="_blank">
+                   <v-icon left>mdi-arrow-right</v-icon>
+                   <font >Curriculum Vitae</font>
+                   </v-btn>
+                  
+
+
+                   
+            </p>
+          </v-col>
+          <v-col
+           
+            md="8"
           >
           <v-card-text>
             <h2
@@ -19,35 +48,45 @@
             <v-divider class="mx-4"></v-divider>
             <v-card-text>
             <h2 class="mb-2"><v-icon color="black" class="mr-2">mdi-briefcase</v-icon>Work</h2>
-            <p>I am currently a Research Fellow at the <a href="https://www.ucl.ac.uk/bartlett/construction/" target="_blank">Bartlett School of Construction and Project Management (BSCPM)</a> as part of the <a href="https://www.ucl.ac.uk/bartlett/construction/research/management-projects/aec-delta-mobility" target="_blank">AEC Delta Mobility Project</a>, and a Design Tutor at the <a href="https://www.ucl.ac.uk/bartlett/architecture/" target="_blank">Bartlett School of Architecture (BSA)</a>.</p> 
+            <p>I am currently working as a Research Fellow at the <a href="https://www.ucl.ac.uk/bartlett/construction/" target="_blank">Bartlett School of Construction and Project Management (BSCPM)</a> as part of the <a href="https://www.ucl.ac.uk/bartlett/construction/research/management-projects/aec-delta-mobility" target="_blank">AEC Delta Mobility Project</a>, and as a Design Tutor at the <a href="https://www.ucl.ac.uk/bartlett/architecture/" target="_blank">Bartlett School of Architecture (BSA)</a> within the <a href="https://www.ucl.ac.uk/bartlett/architecture/programmes/postgraduate/march-urban-design/" target="_blank">Urban Design MArch (RC11)</a>.</p> 
             </v-card-text>
             <v-divider class="mx-4"></v-divider>
             <v-card-text>
             <h2 class="mb-2"><v-icon color="black" class="mr-2">mdi-school</v-icon>Education</h2>
             <p>Previously, I pursued my PhD at the <a href="https://kadk.dk/en/CITA" target="_blank">Centre for Information Technology and Architecture (CITA)</a> as part of the <a href="http://innochain.net/" target="_blank">InnoChain European Training Network</a>, collaborating with <a href="https://www.designtoproduction.com/" target="_blank">Design-to-Production</a> and <a href="https://www.burohappold.com/" target="_blank">BuroHappold</a>. Before that graduated from the University of Stuttgart where I obtained a <a href="https://icd.uni-stuttgart.de/?p=6111" target="_blank">M.Sc. in Integrative Technologies and Architectural Design Research</a> under the supervision of the <a href="http://icd.uni-stuttgart.de/" target="_blank">Institute for Computational Design and Construction (ICD)</a> and the <a href="https://www.itke.uni-stuttgart.de/" target="_blank">Institute of Building Structures and Structural Design (ITKE)</a>. During my studies, I participated in the <a href="https://vimeo.com/107991993" target="_blank">design development</a> and construction of the <a href="https://vimeo.com/132910518" target="_blank">ICD/ITKE Research Pavilion 2014-15</a>. I also obtained a Bachelor's degree in Architecture (B.Arch.) under the supervision of the Digital Knowledge Department at the <a href="https://paris-malaquais.archi.fr/" target="_blank">École Nationale Supérieure d'Architecture de Paris-Malaquais (ENSAPM)</a>. During my education, I've always been interested in developing a deep understanding of the tools that we are using to design the world surrounding us.
             </p>
+
+
             </v-card-text>
             <v-divider class="mx-4"></v-divider>
             <v-card-text>
             <h2 class="mb-3"><v-icon color="black" class="mr-2">mdi-keyboard</v-icon>Coding skills</h2>
             <p>
-              <v-chip class="mr-2">
+              <v-chip class="ma-1">
                 <v-icon color="black" left>mdi-language-python</v-icon>
                 Python
               </v-chip>
-              <v-chip class="mr-2">
+              <v-chip class="ma-1">
                 <v-icon color="red" left>mdi-language-csharp</v-icon>
                 CSharp
               </v-chip >
-              <v-chip class="mr-2">
+              <v-chip class="ma-1">
+                <v-icon color="#ff471a" left>mdi-language-html5</v-icon>
+                HTML5
+              </v-chip>              
+              <v-chip class="ma-1">
+                <v-icon color="#0000ff" left>mdi-language-css3</v-icon>
+                CSS3
+              </v-chip>                 
+              <v-chip class="ma-1">
                 <v-icon color="orange" left>mdi-language-javascript</v-icon>
                 JavaScript
               </v-chip>
-              <v-chip class="mr-2">
+              <v-chip class="ma-1">
                 <v-icon color="green" left>mdi-vuejs</v-icon>
                 Vue.js
-              </v-chip class="mr-2">                       
-              <v-chip>
+              </v-chip>                       
+              <v-chip class="ma-1">
                 <v-icon color="blue" left>mdi-vuetify</v-icon>
                 Vuetify
               </v-chip>               
@@ -64,18 +103,9 @@
             <p>In my spare time, I love chasing and buying interesting domain names. As of today, I am the proud owner of <a href="http://generativedesignaec.com/" target="_blank">generativedesignaec.com</a> and <a href="http://xgenerativedesign.com/" target="_blank">xgenerativedesign.com</a>. Waiving here 👋 to the people of Autodesk and Dassault Systemes: don't hesitate to contact me to discuss 💲💲💲</p>
             </v-card-text>
           </v-col>
-          <v-col
-            cols="12"
-            md="5"
-            offset-md="1"
-          >
-            <v-card :max-width="400" :elevation="24">
-              <v-img  
 
-            src="/static/about.png" />
-            </v-card>
-          </v-col>
         </v-row>
+              
       </v-container>
     </section>
 
@@ -135,8 +165,10 @@
 </template>
 
 <script>
+  
   export default {
     data: () => ({
+      
       highlights: [
         'Custom workflows',
         'Web development',

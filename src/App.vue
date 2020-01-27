@@ -36,16 +36,28 @@
 </script>
 
 <style lang="sass">
+  
+  
+  
   section
-    padding-top: 64px
+    padding-top: 32px
     padding-bottom: 64px
-
     @media screen and (max-width: 640px)
       padding-top: 16px
       padding-bottom: 16px
-
-  // Remove once fixed
-  // https://github.com/vuetifyjs/vuetify/issues/8327
   .theme--dark.v-list-item
     color: #FFFFFF
+
+</style>
+
+<style>
+
+  .map {
+      -webkit-filter: grayscale(100%);
+        -moz-filter: grayscale(100%);
+          -ms-filter: grayscale(100%);
+          -o-filter: grayscale(100%);
+              filter: grayscale(100%);
+  }
+
 </style>

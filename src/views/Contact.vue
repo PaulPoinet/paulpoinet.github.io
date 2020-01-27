@@ -1,17 +1,9 @@
 <template>
   <div>
-    <section class="py-0">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.52493029523!2d-0.1382034842295003!3d51.52193117963751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b293a54d98d%3A0xcc673d6af820b665!2s90%20Tottenham%20Court%20Rd%2C%20Bloomsbury%2C%20London%20W1T%204TJ!5e0!3m2!1sen!2suk!4v1571669445934!5m2!1sen!2suk"
-        width="100%"
-        height="600"
-        frameborder="0"
-        style="border:0"
-        allowfullscreen
-      />
-    </section>
 
-    <section>
+<section class="mt-12">
+
+
       <v-container>
         <v-row justify="center">
           <v-col
@@ -20,14 +12,14 @@
             cols="12"
             md="3"
           >
-            <div class="text-center">
+            <div class="text-center" >
               <v-icon
-                size="64"
+                size="32"
                 class="mb-3"
                 v-text="icon"
               />
               <div
-                class="mb-2 headline"
+                class="headline"
                 v-text="info1"
               />
               <div v-text="info2" />
@@ -35,9 +27,48 @@
           </v-col>
         </v-row>
       </v-container>
+
+          <v-container class="mb-5">
+        
+      <v-card height="350" :elevation="24">
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.52493029523!2d-0.1382034842295003!3d51.52193117963751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b293a54d98d%3A0xcc673d6af820b665!2s90%20Tottenham%20Court%20Rd%2C%20Bloomsbury%2C%20London%20W1T%204TJ!5e0!3m2!1sen!2suk!4v1571669445934!5m2!1sen!2suk"
+        width="100%"
+        height="100%"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+      />
+
+            
+
+        </v-card>
+        </v-container>
+
+    
+
     </section>
 
-    <section class="grey lighten-3">
+    <!-- <section class="py-0">
+      <v-card  align="center" class="mb-12">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.52493029523!2d-0.1382034842295003!3d51.52193117963751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b293a54d98d%3A0xcc673d6af820b665!2s90%20Tottenham%20Court%20Rd%2C%20Bloomsbury%2C%20London%20W1T%204TJ!5e0!3m2!1sen!2suk!4v1571669445934!5m2!1sen!2suk"
+        width="100%"
+        height="400"
+        frameborder="0"
+        style="border:0"
+        allowfullscreen
+        
+      />
+      </v-card>
+    </section> -->
+
+
+
+
+
+    <!-- <section class="grey lighten-3">
       <v-form>
         <v-container>
           <v-row>
@@ -78,7 +109,7 @@
           </v-row>
         </v-container>
       </v-form>
-    </section>
+    </section> -->
   </div>
 </template>
 

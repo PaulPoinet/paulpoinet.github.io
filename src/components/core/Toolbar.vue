@@ -48,8 +48,8 @@
         </v-btn>
       </template>
       <v-card
-        color="primary"
-        dark
+        
+        
       >
         <v-list color="transparent">
           <v-list-item
@@ -82,7 +82,7 @@
           text: 'CV'
         },
         {
-          to: '/my-work',
+          to: '/works',
           text: 'Works'
         },
         {
