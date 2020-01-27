@@ -12,7 +12,7 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
 #git push -f git@github.com:paulpoinet/VueGithubPages.git HEAD:master
-git push -f git@github.com:paulpoinet/paulpoinet.github.io.git HEAD:master:gh-pages
+git push -f git@github.com:paulpoinet/paulpoinet.github.io.git HEAD:gh-pages
 
 cd -
 
