@@ -39,7 +39,7 @@
             <v-divider class="mx-4 my-7"></v-divider>
             <v-card-title>Project Credits</v-card-title>
               <v-card-text>
-              <b>Design:</b> Paul Poinet, Tom Svilans, Martin Tamke, Mette R. Thomsen<br>
+              <b>Design:</b> Paul Poinet, Tom Svilans, Martin Tamke, Mette Ramsgaard Thomsen<br>
               <b>Modelling:</b> Paul Poinet, Tom Svilans<br>
               <b>Imagery:</b> Tom Svilans, Leonardo Castaman<br>
               </v-card-text>
