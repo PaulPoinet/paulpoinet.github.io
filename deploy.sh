@@ -17,6 +17,14 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-git push -f git@github.com:paulpoinet/paulpoinet.github.io.git master
+git push -f git@github.com:paulpoinet/paulpoinet.github.io.git HEAD:master
+
+cd ..
+
+git init
+git add -A
+git commit -m 'deploy'
+
+git push -f git@github.com:paulpoinet/paulpoinet.github.io.git HEAD:gh-pages
 
 cd -
