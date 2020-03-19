@@ -22,11 +22,11 @@
           </v-btn>
           
           <v-btn href="https://www.linkedin.com/in/ppoinet/" target="_blank" class="ma-1" fab small>
-            <v-icon dark>mdi-linkedin-box</v-icon>
+            <v-icon dark>mdi-linkedin</v-icon>
           </v-btn>
 
           <v-btn href="https://github.com/PaulPoinet" target="_blank" class="ma-1" fab small>
-            <v-icon dark>mdi-github-circle</v-icon>
+            <v-icon dark>mdi-github</v-icon>
           </v-btn>
 
           <v-btn href="mailto:poinetp@gmail.com" target="_blank" class="ma-1" fab small>
