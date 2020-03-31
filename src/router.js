@@ -65,7 +65,7 @@ const router = new Router({
     },
     {
       path: '/PhD-Defence',
-      name: 'PhD Defence',
+      name: 'PhD Defence - 3rd of April 2020',
       component: () => import('@/components/works/PhD-Defence')
     }
   ]

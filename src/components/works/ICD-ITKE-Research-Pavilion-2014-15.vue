@@ -168,7 +168,6 @@
                 frameborder="0"
                 style="border:0"
                 allowfullscreen src="https://player.vimeo.com/video/107991993" allow="autoplay; fullscreen"></iframe>
-             
               </v-card>
               </v-container>
               <v-card-title class="mt-10">Project Date</v-card-title>

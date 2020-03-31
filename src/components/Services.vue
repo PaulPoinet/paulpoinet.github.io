@@ -138,10 +138,10 @@ export default {
     overlay: false,
     projects: [
       {
-        name: "PhD Defence",
+        name: "PhD Defence - 3rd of April 2020",
         path: "PhD-Defence",
-        img: "PhD-Defence-KADK.png",
-        categories: [4]
+        img: "PhD-Defence-KADK2.png",
+        categories: [1,4]
       },  
         {
         name: "SpeckleViz",

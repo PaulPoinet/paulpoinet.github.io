@@ -23,52 +23,158 @@
 
             <v-card-title class="mt-12">Project Description</v-card-title>
             <v-card-text>
-              <p>
-              <b>Grove</b> is a competition proposal for the <a href="https://2017.tab.ee/" target="_blank">2017 Tallinn Architecture Biennale</a> folly competition. It is a pocket of natural space - a safe haven - in the middle of the city of Tallinn. Constructed out of freeform glue-laminated timber elements, the folly twists, winds, and branches into an enveloping canopy that seemingly grows from the site. Merging highly abstract and systemic methods of algorithmic modelling with state-of-the-art timber fabrication technologies, this proposal points towards a new architecture that is rooted in the deep embedding of material behaviours and performance into architectural and urban thinking.
-              </p>
-              <p>
-              Taking inspiration from the branching and dense interleaving of trees in the forest, this entry is based on an integrated modelling method which combines an overall branching and growth logic with embedded material limits and fabrication constraints. The structure is organized as a self-supprting ‘grove’ of laminated timber elements which bifurcate and interconnect to create a three-dimensional spaceframe-like structural scheme.
-              </p>
-              <p>
-              Two main contextual considerations guide the clustering and opening of the pavilion: the entrance of the Museum of Estonian Architecture, and the view towards the Old City to the southwest. These are articulated by two ‘pockets’ of space within the vaulting structure, providing semi-enclosed sitting areas from which to relax, take a breath, and look towards the city skyline. This proposal unfolds in three parts: the experiential and atmospheric qualities of the folly; the fabrication-aware methods of modeling and existing prototypes that demonstrate the feasibility of construction; and a high-level graph-based model which links the overal scheme with issues of logistics and project organization across multiple scales.
-              </p>
-              <p>
-              The project was awarded 2nd place.
-              </p>
+              
+              This page is dedicated to the online defence of my Ph.D. thesis entitled <i><b>"Enhancing Collaborative Practices in Architecture, Engineering and Construction through Multi-Scalar Modelling Methodologies"</b></i>. The defence takes place on <a href="https://kadk.zoom.us/j/182688666/" target="_blank">Zoom</a> (due to the COVID-19 situation) on the <b>3rd of April 2020 at 9pm (CET)</b>. Please find below all information related to the project's credits, <a href="https://kadk.dk/kalender/online-phd-forsvar-enhancing-collaborative-practices-architecture-engineering-and/" target="_blank">defence agenda</a>, presentation content (<a href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">presentation slides</a> and videos) and reading material (<a href="/static/PhDThesis_Abstract.pdf" target="_blank">abstract</a> and <a href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">pre-defence version</a>).
+              
             </v-card-text>
-            <v-divider class="mx-4 my-7"></v-divider>
-            <v-card-title>Project Credits</v-card-title>
-              <v-card-text>
-              <b>Design:</b> Paul Poinet, Tom Svilans, Martin Tamke, Mette Ramsgaard Thomsen<br>
-              <b>Modelling:</b> Paul Poinet, Tom Svilans<br>
-              <b>Imagery:</b> Tom Svilans, Leonardo Castaman<br>
-              </v-card-text>
 
 
-
-              <v-card-subtitle><b>Links</b></v-card-subtitle>
+                   <v-card-title class="mt-10">Links</v-card-title>
                    
                    <v-btn rounded :elevation="4" class="ma-2 ml-3" href="https://kadk.dk/kalender/online-phd-forsvar-enhancing-collaborative-practices-architecture-engineering-and/" target="_blank">
                    <v-icon left>mdi-arrow-right</v-icon>
-                   KADK - Ph.d.-forsvar
+                   KADK - Info & Agenda
+                   <v-icon right>mdi-information-outline</v-icon>
                    </v-btn>
 
                    <v-btn rounded :elevation="4" class="ma-2 ml-3" href="https://kadk.zoom.us/j/182688666/" target="_blank">
                    <v-icon left>mdi-arrow-right</v-icon>
-                   Online Defence (Zoom)
-                   </v-btn>           
+                   Join the Online Defence on Zoom
+                   <v-icon right>mdi-webcam</v-icon>
+                   </v-btn>        
 
-                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="https://adk.elsevierpure.com/ws/portalfiles/portal/63656018/PhDThesis_PaulPoinet_102219_FINAL_1_.pdf/" target="_blank">
+                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">
+                   <v-icon left>mdi-arrow-right</v-icon>
+                   Presentation Slides
+                   <v-icon right>mdi-presentation-play</v-icon>
+                   </v-btn>    
+
+                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="/static/PhDThesis_Abstract.pdf" target="_blank">
+                   <v-icon left>mdi-arrow-right</v-icon>
+                   Read the abstract
+                   <v-icon right>mdi-file-pdf-outline</v-icon>
+                   </v-btn> 
+
+                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">
                    <v-icon left>mdi-arrow-right</v-icon>
                    Read the thesis (Pre-defence version)
+                   <v-icon right>mdi-file-pdf-outline</v-icon>
                    </v-btn> 
+
+                   <v-card-title class="mt-10">Videos</v-card-title>
+            <v-card-text>
               
-              <v-card-title class="mt-10">PhD Defence Agenda</v-card-title>
+               The videos below are listed in their order of appearance during the PhD Defence presentation.<br>
+               Their title correspond to the experiment's title they refer to.
+              
+              
+            </v-card-text>
+                    <v-container>
+                    <v-card tile raised height="360" width="640" :elevation="24" color="black">
+                    <iframe         
+                      align="top"
+                      height="360"
+                      width="640"
+                      frameborder="0"
+                      style="border:0"
+                      allowfullscreen src="https://player.vimeo.com/video/345195863" allow="autoplay; fullscreen"></iframe>
+                    </v-card>
+                    </v-container>
+                    <v-container>
+                    <v-card tile raised height="360" width="640" :elevation="24" color="black">
+                    <iframe         
+                      align="top"
+                      height="360"
+                      width="640"
+                      frameborder="0"
+                      style="border:0"
+                      allowfullscreen src="https://player.vimeo.com/video/402625880" allow="autoplay; fullscreen"></iframe>
+                    </v-card>
+                    </v-container>
+                    <v-container>
+                    <v-card tile raised height="360" width="640" :elevation="24" color="black">
+                    <iframe         
+                      align="top"
+                      height="360"
+                      width="640"
+                      frameborder="0"
+                      style="border:0"
+                      allowfullscreen src="https://player.vimeo.com/video/402625923" allow="autoplay; fullscreen"></iframe>
+                    </v-card>
+                    </v-container>                    
+                    <v-container>
+                    <v-card tile raised height="360" width="640" :elevation="24" color="black">
+                    <iframe         
+                      align="top"
+                      height="360"
+                      width="640"
+                      frameborder="0"
+                      style="border:0"
+                      allowfullscreen src="https://player.vimeo.com/video/402625834" allow="autoplay; fullscreen"></iframe>
+                    </v-card>
+                    </v-container>
+                    <v-container>
+                    <v-card tile raised height="360" width="640" :elevation="24" color="black">
+                    <iframe         
+                      align="top"
+                      height="360"
+                      width="640"
+                      frameborder="0"
+                      style="border:0"
+                      allowfullscreen src="https://player.vimeo.com/video/402625798" allow="autoplay; fullscreen"></iframe>
+                    </v-card>
+                    </v-container>
+                    
+                <v-card-title class="mt-10">PhD Defence Agenda</v-card-title>
+                <v-card-text>
+                <ul>
+                  <li><b>21:00</b> - Welcome and presentation of chairperson, assessment committee, supervisors and author</li>
+                  <li><b>21:05</b> - Paul Poinet presents his dissertation "Enhancing Collaborative Practices in Architecture, Engineering and Construction through Multi-Scalar Modelling Methodologies"</li>
+                  <li><b>21:50</b> - Short break</li>
+                </ul>  
+                <br>
+                According to the "Ministerial Order on the PhD Course of Study and the PhD Degree" the chairperson may invite the audience to contribute with short statements. Such intentions should be addressed to the chairperson during the break.<br>
+                <br>
+                <ul>
+                  <li><b>22:00</b> - Jane Burry - Professor, Dean of the School of Design in the <a href="https://www.swinburne.edu.au/health-arts-design/" target="_blank">Faculty of Health Arts and Design at Swinburne University of Technology</a>, Victoria, Australia</li>
+                  <li><b>22:30</b> - Robert Otani - Principal & Chief Technology Officer, <a href="https://www.thorntontomasetti.com/" target="_blank">Thornton Tomasetti</a>, New York, USA</li>
+                  <li><b>23:00</b> - Daniel Lee - Associate Professor, Institute of Architecture and Technology, <a href="https://kadk.dk/en/" target="_blank">KADK</a>, Copenhagen, Denmark (Chair of the assessment committee)</li>
+                  <li><b>23:00</b> - Comments from the auditorium</li>
+                  <li>The assessment committee evaluates and makes the concluding remarks</li>
+                  <li>Closure of session</li>
+                </ul>
+                </v-card-text>
+
+            <v-card-title class="mt-10">Credits</v-card-title>
+              <v-card-text>
+              <b>Author/Presenter:</b> Paul Poinet<br>
+              </v-card-text>
+              <v-card-subtitle><b>Assessment Committee</b></v-card-subtitle>
+              <v-card-text>
+              Jane Burry - Professor, Dean of the School of Design in the <a href="https://www.swinburne.edu.au/health-arts-design/" target="_blank">Faculty of Health Arts and Design at Swinburne University of Technology</a>, Victoria, Australia<br>
+              Robert Otani - Principal & Chief Technology Officer, <a href="https://www.thorntontomasetti.com/" target="_blank">Thornton Tomasetti</a>, New York, USA<br>
+              Daniel Lee - Associate Professor, Institute of Architecture and Technology, <a href="https://kadk.dk/en/" target="_blank">KADK</a>, Copenhagen, Denmark (Chair of the assessment committee)<br>
+              </v-card-text>
+              <v-card-subtitle><b>Supervisors</b></v-card-subtitle>
+              <v-card-text>
+              <b>Primary Supervisor:</b> Mette Ramsgaard Thomsen - Professor, Head of <a href="https://kadk.dk/en/CITA" target="_blank">CITA, KADK</a> (Chairperson of the defence)<br>
+              <b>Secondary Supervisor:</b> Martin Tamke - Associate Professor at <a href="https://kadk.dk/en/CITA" target="_blank">CITA, KADK</a><br>
+              <b>Industrial Supervisors:</b> Dr. Al Fisher (<a href="https://www.burohappold.com/" target="_blank">BuroHappold Engineering</a>), Fabian Scheurer (<a href="https://www.designtoproduction.com/" target="_blank">Design-to-Production</a>)<br>
+              </v-card-text>
+              <v-card-subtitle><b>Funding</b></v-card-subtitle>
+              <v-card-text>
+              The thesis is the result of a PhD study that has been carried within the InnoChain ETN network, which has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie-Sokolowski-Curie grant agreement No 642877.<br>
+              <br>
+              It has been accomplished at the Institute of Architecture and Technology, <a href="https://kadk.dk/en/CITA" target="_blank">CITA, KADK</a>.
+              </v-card-text>
+
+              
+
               <v-card-title class="mt-10">Project Date</v-card-title>
               <v-card-text>
                 2015 - 2019
               </v-card-text>
-              <v-card-title class="">Project Location</v-card-title>
+              <v-card-title class="mt-10">Project Location</v-card-title>
               <v-container>
               <v-card height="350" width="100%" :elevation="24">
                 <iframe
@@ -100,24 +206,13 @@
   export default {
     data () {
       return {
-        items: [
-
-           {
+        items: [       
+          {
+            src: "/../../../static/PhD-Defence-KADK2.png",
+          },
+          {
             src: "/../../../static/Grove-Main-Render.jpg",
-          },
-          {
-            src: "/../../../static/Grove-Day-Render.jpg",
-          },          
-          {
-            src: "/../../../static/Grove-Night-Render.jpg",
-          },
-          {
-            src: "/../../../static/Grove-Modelling.png",
-          },
-          {
-            src: "/../../../static/Grove-Details.png",
-          }       
-          
+          }
         ],
       }
     },
