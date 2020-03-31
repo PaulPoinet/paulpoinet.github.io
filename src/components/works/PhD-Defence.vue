@@ -7,19 +7,22 @@
         <v-col md="8"
             >
           
-      <v-card :elevation="24">
-        <v-carousel hide-delimiters dark height="500">
-          <v-carousel-item
-            v-for="(item,i) in items"
-            :key="i"
-            :src="item.src"
-          ></v-carousel-item>
-        </v-carousel>
-
-            
-
-        </v-card>
-
+              <v-container>
+                <v-card
+                  width="640"
+                  height="298"  
+                  href="https://kadk.dk/kalender/online-phd-forsvar-enhancing-collaborative-practices-architecture-engineering-and/"
+                >
+                <v-img
+                  src="/../../../static/PhD-Defence-KADK4.png"
+                  aspect-ratio="1"
+                  class="grey lighten-2"
+                  width="640"
+                  height="298"
+                  
+                ></v-img>
+                </v-card>
+              </v-container>
 
             <v-card-title class="mt-12">Project Description</v-card-title>
             <v-card-text>
@@ -99,7 +102,7 @@
                       width="640"
                       frameborder="0"
                       style="border:0"
-                      allowfullscreen src="https://player.vimeo.com/video/402625923" allow="autoplay; fullscreen"></iframe>
+                      allowfullscreen src="https://player.vimeo.com/video/402625834" allow="autoplay; fullscreen"></iframe>
                     </v-card>
                     </v-container>                    
                     <v-container>
@@ -110,7 +113,7 @@
                       width="640"
                       frameborder="0"
                       style="border:0"
-                      allowfullscreen src="https://player.vimeo.com/video/402625834" allow="autoplay; fullscreen"></iframe>
+                      allowfullscreen src="https://player.vimeo.com/video/402625923" allow="autoplay; fullscreen"></iframe>
                     </v-card>
                     </v-container>
                     <v-container>
@@ -139,7 +142,7 @@
                   <li><b>22:00</b> - Jane Burry - Professor, Dean of the School of Design in the <a href="https://www.swinburne.edu.au/health-arts-design/" target="_blank">Faculty of Health Arts and Design at Swinburne University of Technology</a>, Victoria, Australia</li>
                   <li><b>22:30</b> - Robert Otani - Principal & Chief Technology Officer, <a href="https://www.thorntontomasetti.com/" target="_blank">Thornton Tomasetti</a>, New York, USA</li>
                   <li><b>23:00</b> - Daniel Lee - Associate Professor, Institute of Architecture and Technology, <a href="https://kadk.dk/en/" target="_blank">KADK</a>, Copenhagen, Denmark (Chair of the assessment committee)</li>
-                  <li><b>23:00</b> - Comments from the auditorium</li>
+                  <li><b>23:30</b> - Comments from the auditorium</li>
                   <li>The assessment committee evaluates and makes the concluding remarks</li>
                   <li>Closure of session</li>
                 </ul>
@@ -163,11 +166,26 @@
               </v-card-text>
               <v-card-subtitle><b>Funding</b></v-card-subtitle>
               <v-card-text>
-              The thesis is the result of a PhD study that has been carried within the InnoChain ETN network, which has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie-Sokolowski-Curie grant agreement No 642877.<br>
+              The thesis is the result of a PhD study that has been carried within the <a href="http://innochain.net/" target="_blank">InnoChain ETN Network</a>, which has received funding from the European Union’s Horizon 2020 research and innovation program under the Marie-Sokolowski-Curie grant agreement No 642877.<br>
               <br>
               It has been accomplished at the Institute of Architecture and Technology, <a href="https://kadk.dk/en/CITA" target="_blank">CITA, KADK</a>.
               </v-card-text>
 
+              <v-container>
+                <v-card
+                  width="640"
+                  height="298"  
+                >
+                <v-img
+                  src="/../../../static/PhD-Defence-Logos3.png"
+                  aspect-ratio="1"
+                  class="grey lighten-2"
+                  width="640"
+                  height="298"
+                ></v-img>
+                </v-card>
+              </v-container>
+              
               
 
               <v-card-title class="mt-10">Project Date</v-card-title>

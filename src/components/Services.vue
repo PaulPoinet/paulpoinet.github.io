@@ -140,7 +140,7 @@ export default {
       {
         name: "PhD Defence - 3rd of April 2020",
         path: "PhD-Defence",
-        img: "PhD-Defence-KADK3.png",
+        img: "PhD-Defence-LayerStaker.png",
         categories: [1,4]
       },  
         {
