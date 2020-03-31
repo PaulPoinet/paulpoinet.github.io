@@ -65,7 +65,7 @@
             <v-card-text>
               
                The videos below are listed in their order of appearance during the PhD Defence presentation.<br>
-               Their title correspond to the experiment's title they refer to.
+               Each title corresponds to the thesis experiment's it refer to.
               
               
             </v-card-text>
