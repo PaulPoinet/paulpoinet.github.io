@@ -208,7 +208,7 @@
       return {
         items: [       
           {
-            src: "/../../../static/PhD-Defence-KADK2.png",
+            src: "/../../../static/PhD-Defence-KADK3.png",
           },
           {
             src: "/../../../static/Grove-Main-Render.jpg",

@@ -140,7 +140,7 @@ export default {
       {
         name: "PhD Defence - 3rd of April 2020",
         path: "PhD-Defence",
-        img: "SpeckleViz-Interface2-Zoom.png",
+        img: "PhD-Defence-KADK3.png",
         categories: [1,4]
       },  
         {
