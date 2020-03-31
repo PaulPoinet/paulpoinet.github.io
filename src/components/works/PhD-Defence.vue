@@ -12,6 +12,7 @@
                   width="640"
                   height="298"  
                   href="https://kadk.dk/kalender/online-phd-forsvar-enhancing-collaborative-practices-architecture-engineering-and/"
+                  target="_blank"
                 >
                 <v-img
                   src="/../../../static/PhD-Defence-KADK4.png"
@@ -27,7 +28,7 @@
             <v-card-title class="mt-12">Project Description</v-card-title>
             <v-card-text>
               
-              This page is dedicated to the online defence of my Ph.D. thesis entitled <i><b>"Enhancing Collaborative Practices in Architecture, Engineering and Construction through Multi-Scalar Modelling Methodologies"</b></i>. The defence takes place on <a href="https://kadk.zoom.us/j/182688666/" target="_blank">Zoom</a> (due to the COVID-19 situation) on the <b>3rd of April 2020 at 9pm (CET)</b>. Please find below all information related to the project's credits, <a href="https://kadk.dk/kalender/online-phd-forsvar-enhancing-collaborative-practices-architecture-engineering-and/" target="_blank">defence agenda</a>, presentation content (<a href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">presentation slides</a> and videos) and reading material (<a href="/static/PhDThesis_Abstract.pdf" target="_blank">abstract</a> and <a href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">pre-defence version</a>).
+              This page (best viewed on a laptop, and with Chrome...) is dedicated to the online defence of my Ph.D. thesis entitled <i><b>"Enhancing Collaborative Practices in Architecture, Engineering and Construction through Multi-Scalar Modelling Methodologies"</b></i>. The defence takes place on <a href="https://kadk.zoom.us/j/182688666/" target="_blank">Zoom</a> (due to the COVID-19 situation) on the <b>3rd of April 2020 at 9pm (CET)</b>. Please find below all information related to the project's credits, <a href="https://kadk.dk/kalender/online-phd-forsvar-enhancing-collaborative-practices-architecture-engineering-and/" target="_blank">defence agenda</a>, presentation content (<a href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">presentation slides</a> and videos) and reading material (<a href="/static/PhDThesis_Abstract.pdf" target="_blank">abstract</a> and <a href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">pre-defence version</a>).
               
             </v-card-text>
 
@@ -38,13 +39,18 @@
                    <v-icon left>mdi-arrow-right</v-icon>
                    KADK - Info & Agenda
                    <v-icon right>mdi-information-outline</v-icon>
-                   </v-btn>
 
-                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="https://kadk.zoom.us/j/182688666/" target="_blank">
-                   <v-icon left>mdi-arrow-right</v-icon>
-                   Join the Online Defence on Zoom
-                   <v-icon right>mdi-webcam</v-icon>
-                   </v-btn>        
+                   </v-btn>
+                    <v-tooltip bottom>
+                      <template v-slot:activator="{ on }">
+                      <v-btn rounded :elevation="4" class="ma-2 ml-3" v-on="on" href="https://kadk.zoom.us/j/182688666/" target="_blank">
+                      <v-icon left>mdi-arrow-right</v-icon>
+                      Join the Online Defence on Zoom
+                      <v-icon right>mdi-webcam</v-icon>
+                      </v-btn>        
+                      </template>
+                      <span>A gentle reminder to not forget to mute your mic if/when you are not speaking :)</span>
+                    </v-tooltip>
 
                    <v-btn rounded :elevation="4" class="ma-2 ml-3" href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">
                    <v-icon left>mdi-arrow-right</v-icon>
@@ -68,7 +74,7 @@
             <v-card-text>
               
                The videos below are listed in their order of appearance during the PhD Defence presentation.<br>
-               Each title corresponds to the thesis experiment's it refer to.
+               Each title corresponds to the thesis experiment's it refers to.
               
               
             </v-card-text>

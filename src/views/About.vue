@@ -48,7 +48,7 @@
             <v-divider class="mx-4"></v-divider>
             <v-card-text>
             <h2 class="mb-2"><v-icon color="black" class="mr-2">mdi-briefcase</v-icon>Work</h2>
-            <p>I am currently working as a Research Fellow at the <a href="https://www.ucl.ac.uk/bartlett/construction/" target="_blank">Bartlett School of Construction and Project Management (BSCPM)</a> as part of the <a href="https://www.ucl.ac.uk/bartlett/construction/research/management-projects/aec-delta-mobility" target="_blank">AEC Delta Mobility Project</a>, and as a Design Tutor at the <a href="https://www.ucl.ac.uk/bartlett/architecture/" target="_blank">Bartlett School of Architecture (BSA)</a> within the <a href="https://www.ucl.ac.uk/bartlett/architecture/programmes/postgraduate/march-urban-design/" target="_blank">Urban Design MArch (RC11)</a>.</p> 
+            <p>I am currently working as a Research Fellow at the <a href="https://www.ucl.ac.uk/bartlett/construction/" target="_blank">Bartlett School of Construction and Project Management (BSCPM)</a> as part of the <a href="https://www.ucl.ac.uk/bartlett/construction/research/management-projects/aec-delta-mobility" target="_blank">AEC Delta Mobility Project</a>, and as a Design Tutor at the <a href="https://www.ucl.ac.uk/bartlett/architecture/" target="_blank">Bartlett School of Architecture (BSA)</a> within the <a href="https://www.ucl.ac.uk/bartlett/architecture/programmes/postgraduate/march-urban-design/" target="_blank">Urban Design MArch Programme (BPro - RC11)</a>.</p> 
             </v-card-text>
             <v-divider class="mx-4"></v-divider>
             <v-card-text>
