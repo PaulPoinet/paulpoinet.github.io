@@ -62,6 +62,11 @@ const router = new Router({
       path: '/SpeckleViz',
       name: 'SpeckleViz',
       component: () => import('@/components/works/SpeckleViz')
+    },
+    {
+      path: '/PhD-Defence',
+      name: 'PhD Defence',
+      component: () => import('@/components/works/PhD-Defence')
     }
   ]
 })

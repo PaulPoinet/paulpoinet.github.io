@@ -138,6 +138,36 @@ export default {
     overlay: false,
     projects: [
       {
+        name: "PhD Defence",
+        path: "PhD-Defence",
+        img: "PhD-Defence-KADK.png",
+        categories: [4]
+      },  
+        {
+        name: "SpeckleViz",
+        path: "SpeckleViz",
+        img: "SpeckleViz-Interface2-Zoom.png",
+        categories: [1,3]
+      },
+      {
+        name: "Piped Assemblies",
+        path: "Piped-Assemblies",
+        img: "Piped-Assemblies-Bottom.jpg",
+        categories: [1,4,5]
+      },
+      {
+        name: "TAB 2017 - Installation Competition",
+        path: "TAB-2017",
+        img: "Grove-Main-Render.jpg",
+        categories: [1,4]
+      },
+            {
+        name: "Sealion",
+        path: "Sealion",
+        img: "Sealion.jpg",
+        categories: [1,2,4]
+      },
+      {
         name: "ICD/ITKE Research Pavilion 2013-14",
         path: "ICD-ITKE-Research-Pavilion-2013-14",
         img: "ICD-ITKE_RP13-14_Process18.jpg",
@@ -149,36 +179,16 @@ export default {
         img: "ICD-ITKE_RP14-15_Process10.jpg",
         categories: [1,2,4]
       },
-      {
-        name: "TAB 2017 - Installation Competition",
-        path: "TAB-2017",
-        img: "Grove-Main-Render.jpg",
-        categories: [1,4]
-      },
-      {
-        name: "Sealion",
-        path: "Sealion",
-        img: "Sealion.jpg",
-        categories: [1,2,4]
-      },
-      {
+        {
         name: "Light Sculptures",
         path: "Light-Sculptures",
         img: "LightSculptures_1280.jpg",
         categories: [1,2,4]
-      },
-      {
-        name: "Piped Assemblies",
-        path: "Piped-Assemblies",
-        img: "Piped-Assemblies-Bottom.jpg",
-        categories: [1,4,5]
-      },
-      {
-        name: "SpeckleViz",
-        path: "SpeckleViz",
-        img: "SpeckleViz-Interface2-Zoom.png",
-        categories: [1,3]
       }
+
+
+
+   
     ]
   }),
 
