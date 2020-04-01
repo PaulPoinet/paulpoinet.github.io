@@ -41,7 +41,7 @@
                    <v-icon right>mdi-information-outline</v-icon>
 
                    </v-btn>
-                    <v-tooltip bottom>
+                    <v-tooltip top>
                       <template v-slot:activator="{ on }">
                       <v-btn rounded :elevation="4" class="ma-2 ml-3" v-on="on" href="https://kadk.zoom.us/j/182688666/" target="_blank">
                       <v-icon left>mdi-arrow-right</v-icon>
