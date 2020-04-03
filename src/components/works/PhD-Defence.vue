@@ -52,7 +52,7 @@
                       <span>A gentle reminder to not forget to mute your mic if/when you are not speaking :)</span>
                     </v-tooltip>
 
-                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="/static/PhDThesis_PaulPoinet_102219_PreDefenceVersion.pdf" target="_blank">
+                   <v-btn rounded :elevation="4" class="ma-2 ml-3" href="/static/PaulPoinet_DefencePresentation_040320.pdf" target="_blank">
                    <v-icon left>mdi-arrow-right</v-icon>
                    Presentation Slides
                    <v-icon right>mdi-presentation-play</v-icon>
