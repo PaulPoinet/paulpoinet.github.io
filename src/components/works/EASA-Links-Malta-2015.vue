@@ -30,7 +30,7 @@
             <v-divider class="mx-4 my-7"></v-divider>
             <v-card-title>Project Credits</v-card-title>
               <v-card-text>
-              <b>Design Tutors:</b> Paul Poinet, Fabrice Wack, <a href="https://cargocollective.com/jkd/Light-Sculptures/" target="_blank">Julian Hoell</a><br>
+              <b>Design Tutors:</b> Paul Poinet, Fabrice Wack, <a href="https://cargocollective.com/jkd/" target="_blank">Julian Hoell</a><br>
               <b>Students:</b> Jano Vyšný, Antreas Biros, Laoura Tziourrou, Mark Distanov, Krista Skujiņa, Fabrice Kcaw, Elis Haçkaj, Aleksandra Wróbel, Denis Tantsyura, Özlem Yazgan, Marcos Anton Kowalski, Rachel Graham, Nikita Abanin
               </v-card-text>
 
