@@ -85,7 +85,7 @@
             src: "/../../../static/EASAMaltaLinks3.png",
           },   
           {
-            src: "/../../../static/EASAMaltaLinks4.png",
+            src: "/../../../static/EASAMaltaLinks5.png",
           },                                            
         ],
       }
