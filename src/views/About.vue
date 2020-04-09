@@ -19,7 +19,7 @@
 
                    <v-btn color="primary" rounded :elevation="4" class="ma-2"  href="/static/PaulPoinet_CVPortfolio_lowres.pdf" target="_blank">
                    <v-icon left>mdi-arrow-right</v-icon>
-                   <font >ARCH PORTFOLIO (2012-18)</font>
+                   <font >ARCH PORTFOLIO (2012-19)</font>
                    </v-btn>
                    <br>
                    <v-btn color="primary" rounded :elevation="4" class="ma-2"  href="/static/CV.pdf" target="_blank">

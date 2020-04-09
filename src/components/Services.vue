@@ -147,7 +147,7 @@ export default {
         name: "SpeckleViz",
         path: "SpeckleViz",
         img: "SpeckleViz-Interface2-Zoom.png",
-        categories: [1,3]
+        categories: [3]
       },
       {
         name: "Piped Assemblies",
@@ -161,10 +161,22 @@ export default {
         img: "Grove-Main-Render.jpg",
         categories: [1,4]
       },
-            {
+      {
         name: "Sealion",
         path: "Sealion",
         img: "Sealion.jpg",
+        categories: [1,2,4]
+      },
+      {
+        name: "EASA Links Malta 2015",
+        path: "EASA-Links-Malta-2015",
+        img: "EASAMaltaLinks0.jpg",
+        categories: [1,5]
+      },
+      {
+        name: "Master Thesis (2015)",
+        path: "MasterThesis-2015",
+        img: "MasterThesisCover.png",
         categories: [1,2,4]
       },
       {
@@ -179,16 +191,24 @@ export default {
         img: "ICD-ITKE_RP14-15_Process10.jpg",
         categories: [1,2,4]
       },
-        {
+      {
+        name: "Flexible Concrete",
+        path: "Flexible-Concrete",
+        img: "FlexibleConcrete0.png",
+        categories: [1,4]
+      },
+      {
         name: "Light Sculptures",
         path: "Light-Sculptures",
         img: "LightSculptures_1280.jpg",
         categories: [1,2,4]
+      },
+      {
+        name: "U-Cube",
+        path: "U-Cube",
+        img: "U-Cube00.jpg",
+        categories: [1,2,4]
       }
-
-
-
-   
     ]
   }),
 

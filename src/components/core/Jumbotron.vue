@@ -37,6 +37,10 @@
             <v-icon dark>mdi-bank</v-icon>
           </v-btn>
 
+          <v-btn href="https://www.researchgate.net/profile/Paul_Poinet" target="_blank" class="ma-1" fab small>
+            <v-icon dark>mdi-school</v-icon>
+          </v-btn>
+
           <v-btn href="https://www.instagram.com/pauldotnet/" target="_blank" class="ma-1" fab small>
             <v-icon dark>mdi-instagram</v-icon>
           </v-btn>

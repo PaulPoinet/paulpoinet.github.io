@@ -67,7 +67,28 @@ const router = new Router({
       path: '/PhD-Defence',
       name: 'PhD Defence - 3rd of April 2020',
       component: () => import('@/components/works/PhD-Defence')
+    },
+    {
+      path: '/MasterThesis-2015',
+      name: 'Master Thesis (2015)',
+      component: () => import('@/components/works/MasterThesis-2015')
+    },
+    {
+      path: '/EASA-Links-Malta-2015',
+      name: 'EASA Links Malta 2015',
+      component: () => import('@/components/works/EASA-Links-Malta-2015')
+    },
+    {
+    path: '/U-Cube',
+    name: 'U-Cube',
+    component: () => import('@/components/works/U-Cube')
+    },
+    {
+      path: '/Flexible-Concrete',
+      name: 'Flexible Concrete',
+      component: () => import('@/components/works/Flexible-Concrete')
     }
+
   ]
 })
 

@@ -45,8 +45,8 @@
               <b>Academic Director:</b> David Durán<br>
               <b>Visiting Professor:</b> Paul Poinet<br>
               <b>Assistants:</b> <a href="https://www.me-st.com/" target="_blank">Djordje Stanojevic</a>, <a href="https://www.me-st.com/" target="_blank">Yessica Mendez</a><br>
-              <b>Students:</b> Z. Esther Cepeda, Grecia C. Cortes, Iván A. Durán, A. Karen Garza, Fabrizio Hernández, Denise Llano, Mayalen Martínez, Lina I. Mejía, Carlos A. Muñoz, Ernesto Torralba and Jesus Villalobos.<br>
-              <b>Sponsors:</b> STM Robotics, Abacril.<br>
+              <b>Students:</b> Z. Esther Cepeda, Grecia C. Cortes, Iván A. Durán, A. Karen Garza, Fabrizio Hernández, Denise Llano, Mayalen Martínez, Lina I. Mejía, Carlos A. Muñoz, Ernesto Torralba and Jesus Villalobos<br>
+              <b>Sponsors:</b> STM Robotics, Abacril<br>
               </v-card-text>
 
 
