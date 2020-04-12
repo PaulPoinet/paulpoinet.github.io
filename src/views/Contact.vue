@@ -119,7 +119,7 @@
       details: [
         ['mdi-crosshairs-gps', '90 Tottenham Court Road', 'London, W1T 4TJ'],
         ['mdi-email', 'p.poinet@ucl.ac.uk', 'poinetp@gmail.com'],
-        ['mdi-phone', '+44 (0) 7548 037780', '']
+        //['mdi-phone', '+44 (0) 7548 037780', '']
       ]
     })
   }

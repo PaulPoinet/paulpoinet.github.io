@@ -86,6 +86,10 @@
           text: 'Works'
         },
         {
+          to: '/publications',
+          text: 'Publications'
+        },
+        {
           to: '/contact-me',
           text: 'Contact'
         }

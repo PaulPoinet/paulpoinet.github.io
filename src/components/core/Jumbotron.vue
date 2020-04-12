@@ -116,6 +116,7 @@
         switch (this.namespace) {
           case 'About': return [home, { text: 'About Me' }]
           case 'Contact': return [home, { text: 'Contact Me' }]
+          case 'Publications': return [home, { text: 'My Publications' }]
           case 'Work': return [home, { text: 'My Work' }]
           case 'Home': return [{ text: 'I am a trained architect with a strong focus on computational design and custom workflows for AEC.' }]
           default: return [works, { text: this.namespace }]
