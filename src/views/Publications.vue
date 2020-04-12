@@ -120,7 +120,7 @@
             title: '<b>Multi-Scalar Modelling for Free-form Timber Structures</b>',
             authors: "Poinet P., Nicholas P., Tamke M., Ramsgaard Thomsen M.",
             year: 2016,
-            where: "In <i>Spatial Structures in the 21st Century: Proceedings of the IASS Annual Symposium 2016.</i> (pp. 549-558). The University of Tokyo, Tokyo.",
+            where: "In <i>Spatial Structures in the 21st Century: Proceedings of the IASS Annual Symposium 2016.</i> The University of Tokyo, Tokyo.",
             type: "Conference Proceedings"
           },
           { divider: true, inset: true },
