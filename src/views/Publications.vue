@@ -75,6 +75,16 @@
       items: [
           { header: 'Research Gate' },
           {
+            url: "https://www.researchgate.net/publication/341592629_SpeckleViz_A_Web-based_Interactive_Activity_Network_Diagram_for_AEC",
+            avatar: 'static/publications/simaud2020.jpg',
+            title: '<b>SpeckleViz: A Web-based Interactive  Activity Network Diagram for AEC</b>',
+            authors: "Poinet P., Stefanescu D., Papadonikolaki, E.",
+            year: 2020,
+            where: "In <i>SimAUD 2020: Proceedings of the 11th annual Symposium on Simulation for Architecture and Urban Design (SimAUD).</i> (pp. 419-426). The Society for Modeling and Simulation International (SCS). Vienna.",
+            type: "Conference Proceedings"
+          },
+          { divider: true, inset: true },
+          {
             url: "https://www.researchgate.net/publication/340362551_Enhancing_Collaborative_Practices_in_Architecture_Engineering_and_Construction_through_Multi-Scalar_Modelling_Methodologies",
             avatar: 'static/publications/phdthesis.jpg',
             title: '<b>Enhancing Collaborative Practices in Architecture, Engineering and Construction through Multi-Scalar Modelling Methodologies</b>',
