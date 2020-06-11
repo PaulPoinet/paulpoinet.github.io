@@ -97,11 +97,11 @@
             <h2 class="mb-2"><v-icon color="black" class="mr-2">mdi-lightbulb-on</v-icon>Interests</h2>
             <p>Computational Design, Problem Solving, Custom Workflows, Open Standards, etc...</p>
             </v-card-text>
-            <v-divider class="mx-4"></v-divider>
+            <!-- <v-divider class="mx-4"></v-divider>
             <v-card-text>
             <h2 class="mb-2"><v-icon color="black" class="mr-2">mdi-link</v-icon>Professional Domain Hunter</h2>
             <p>In my spare time, I love chasing and buying interesting domain names. As of today, I am the proud owner of <a href="http://generativedesignaec.com/" target="_blank">generativedesignaec.com</a> and <a href="http://xgenerativedesign.com/" target="_blank">xgenerativedesign.com</a>. Waiving here 👋 to the people of Autodesk and Dassault Systemes: don't hesitate to contact me to discuss 💲💲💲</p>
-            </v-card-text>
+            </v-card-text> -->
           </v-col>
 
         </v-row>
