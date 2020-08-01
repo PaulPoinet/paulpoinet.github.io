@@ -75,6 +75,26 @@
       items: [
           { header: 'Research Gate' },
           {
+            url: "https://www.researchgate.net/publication/343365431_Web-Based_Distributed_Design_to_Fabrication_Workflows",
+            avatar: 'static/publications/caadria2020.jpg',
+            title: '<b>Web-Based Distributed Design to Fabrication Workflows</b>',
+            authors: "Poinet P., Stefanescu D., Papadonikolaki, E.",
+            year: 2020,
+            where: "In <i>CAADRIA 2020: Anthropocene, Proceedings of the 25th International Conference of the Association for Computer-Aided Architectural Design Research in Asia (CAADRIA).</i> Association for Computer-Aided Architectural Design Research in Asia, Hong Kong.",
+            type: "Conference Proceedings"
+          },
+          { divider: true, inset: true },
+          {
+            url: "https://link.springer.com/chapter/10.1007/978-3-030-51295-8_18",
+            avatar: 'static/publications/icccbe2020.jpg',
+            title: '<b>Collaborative Workflows and Version Control through Open-Source and Distributed Common Data Environment</b>',
+            authors: "Poinet P., Stefanescu D., Papadonikolaki, E.",
+            year: 2020,
+            where: "In <i>ICCCBE 2020: 18th International Conference on Computing in Civil and Building Engineering (ICCCBE).</i> Springer, Cham.",
+            type: "Conference Proceedings"
+          },
+          { divider: true, inset: true },
+          {
             url: "https://www.researchgate.net/publication/341592629_SpeckleViz_A_Web-based_Interactive_Activity_Network_Diagram_for_AEC",
             avatar: 'static/publications/simaud2020.jpg',
             title: '<b>SpeckleViz: A Web-based Interactive  Activity Network Diagram for AEC</b>',
